@@ -17,13 +17,25 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #EBFCFE
   &-2
-    background-color: #FFFBE8
+    background-color: #FDFBED
   &-3
-    background-color: #F0E9F6
+    background-color: #D7F9FE
   &-4
     background-color: #EAF8FD
+  &-5
+    background-color: #EBE9F0
+  &-6
+    background-color: #D9D5E3
+  &-7
+    background-color: #EDF3FC
+  &-8
+    background-color: #9EF0FD
+  &-9
+    background-color: #F6ECAA
+  &-10
+    background-color: #EBE9F0
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -42,6 +54,15 @@
 // Full Width Background
 .bg-full-width
   background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-full-width-2
+  background-size: contain
   background-repeat: no-repeat
   background-position: bottom
   margin-inline: -3.3rem
@@ -97,15 +118,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-acento-contenido, 55%) !important
 
 .acordion__header--active
   background-color: $color-acento-contenido !important
   h4, i
-    color: #000 !important
+    color: #fff !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-acento-contenido, 57%) !important
 
 
 .anexo__texto
@@ -210,3 +231,14 @@ $custom-card-img-height: 322px
   a
     text-decoration: none
     color: $color-sistema-texto
+
+.rounded-top 
+  border-top-left-radius: 15px !important
+  border-top-right-radius: 15px !important
+        
+.rounded-bottom 
+  border-bottom-left-radius: 15px !important
+  border-bottom-right-radius: 15px !important
+
+.boton
+  background-color: #5692E8 !important
