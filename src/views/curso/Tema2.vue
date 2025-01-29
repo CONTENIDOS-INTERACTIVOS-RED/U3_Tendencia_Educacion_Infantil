@@ -126,7 +126,7 @@
               h2.mb-4(data-aos="flip-up") Adaptaciones a contextos sociales
               p.mb-4(data-aos="fade-right") En el PDF Adaptaciones a contextos sociales, se analizan las estrategias que permiten ajustar los procesos educativos según las particularidades de cada entorno, asegurando que las prácticas pedagógicas sean pertinentes, relevantes y respetuosas de la diversidad. Además, se exploran ejemplos concretos de cómo estas adaptaciones fortalecen la calidad educativa en distintas comunidades y regiones del país.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -208,7 +208,7 @@
               h2.mb-4(data-aos="flip-up") Ejemplos prácticos 
               p.mb-4(data-aos="fade-right") Los ejemplos prácticos de implementación en diferentes contextos permiten visualizar cómo las modalidades de atención en la educación inicial se adaptan a las realidades sociales, culturales y geográficas de las comunidades. En el PDF Ejemplos prácticos, se presentan experiencias significativas que muestran la aplicación de estas modalidades tanto en entornos institucionales como familiares, destacando estrategias innovadoras para garantizar una educación inclusiva, integral y contextualizada que favorezca el desarrollo pleno de los niños y niñas en sus primeros años de vida.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

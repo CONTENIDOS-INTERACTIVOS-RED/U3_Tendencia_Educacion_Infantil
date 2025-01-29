@@ -111,7 +111,7 @@
               h2.mb-4(data-aos="flip-up") Aplicación de las orientaciones en entornos diversos
               p.mb-4(data-aos="fade-right") En el PDF Aplicación de las orientaciones en entornos diversos, se analizan estrategias y ejemplos prácticos que muestran cómo los docentes pueden adaptar sus prácticas pedagógicas para responder a las necesidades específicas de los estudiantes, considerando las particularidades de su entorno social, cultural y geográfico. Estas adaptaciones promueven una educación inclusiva y equitativa que fortalece el desarrollo integral de los niños, sin importar las condiciones de su entorno.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_5.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
