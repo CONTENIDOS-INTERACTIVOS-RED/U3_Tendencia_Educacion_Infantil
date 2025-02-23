@@ -3,6 +3,8 @@
     BannerInterno(:subTitulo="'3. Orientaciones pedagógicas y técnicas'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
+
+      p(data-aos="fade-left").mb-4 Para conocer sobre las orientaciones pedagógicas, lo invitamos a escuchar el siguiente #[em podcast].
       p(data-aos="fade-left").mb-4 El estudio de este tema es un aspecto esencial para garantizar que cada niño reciba una educación adecuada y de calidad, sin importar su contexto social, cultural o geográfico. 
 
       .row.justify-content-center.align-items-center.mb-5

@@ -215,6 +215,8 @@
               h5 Aprendizaje significativo
               p Un principio central de las bases curriculares es la búsqueda de un aprendizaje significativo. Esto implica que las experiencias educativas deben estar conectadas con los conocimientos previos de los niños y ser relevantes para sus vidas cotidianas. Según las teorías del aprendizaje constructivista, como las de Piaget y Vygotsky, el aprendizaje se construye de manera activa, por lo que las actividades deben promover la reflexión, la acción y la interacción con el entorno para que los niños logren integrar lo aprendido de forma efectiva.
 
+    
+    p(data-aos="fade-left").mb-4 Y los componentes claves de las bases curriculares son:
 
     TabsC.color-acento-contenido.mb-5
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Competencias" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
